@@ -18,3 +18,12 @@ export interface BoardCell {
   coords: { x: number, y: number };
   color: TetraColor;
 }
+
+export interface Meta {
+  pieces: string
+  hold: TetraColor
+  next: TetraColor[]
+  incoming: number
+  b2b: number
+  combo: number
+}
