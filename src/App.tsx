@@ -3,7 +3,7 @@ import { Meta, TetraColor } from './types';
 
 export default function App() {
   const meta: Meta = {
-    pieces: "././././././././././././././././././././",
+    pieces: "./././././././././././././././././5SS3/4SS4/3IIII3/",
     hold: TetraColor.RED,
     next: [],
     incoming: 2,
